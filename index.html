@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | Single-page developer portfolio</title>
 </head>
@@ -27,44 +28,59 @@
       <source media="(min-width:768px)" srcset="./assets/images/image-profile-desktop.webp">
       <img src="./assets/images/image-profile-mobile.webp" alt="profile image">
     </picure>
-    <div>
-      <h1>Nice to meet you! I'm Adam Keyes.</h1>
+    <div class="intro">
+      <h1>Nice to meet you! I'm <span>Adam Keyes</span>.</h1>
     
       <p>Based in the UK, I'm a front-end developer passionate about
         building accessible web apps that users love.</p>
     
-      <a>Contact me</a>
+      <a href="#contact-section">Contact me</a>
     </div>
 
-    <div>
-      <p>HTML</p>
-      <p>4 Years Experience</p>
+    <div class="experience">
+      <div>
+        <p>HTML</p>
+        <p>4 Years Experience</p>
+      </div>
 
-      <p>CSS</p>
-      <p>4 Years Experience</p>
+      <div>
+        <p>CSS</p>
+        <p>4 Years Experience</p>
+      </div>
 
-      <p>JavaScript</p>
-      <p>4 Years Experience</p>
+      <div>
+        <p>JavaScript</p>
+        <p>4 Years Experience</p>
+      </div>
 
-      <p>Accessibility</p>
-      <p>4 Years Experience</p>
+      <div>
+        <p>Accessibility</p>
+        <p>4 Years Experience</p>
+      </div>
 
-      <p>React</p>
-      <p>3 Years Experience</p>
+      <div>
+        <p>React</p>
+        <p>3 Years Experience</p>
+      </div>
 
-      <p>Sass</p>
-      <p>3 Years Experience</p>
+      <div>
+        <p>Sass</p>
+        <p>3 Years Experience</p>
+      </div>
     </div>
 
 
     <h2>Projects</h2>
 
-    <div>
+    <div class="projects">
       <div>
         <img src="./assets/images/thumbnail-project-1-small.webp" alt="design portfolio">
-        <p>Design portfolio</p>
-        <p>HTML CSS</p>
-        <div>
+        <p class="project-title">Design portfolio</p>
+        <div class="project-tech">
+          <p>HTML</p>
+          <p>CSS</p>
+        </div>
+        <div class="project-links">
           <a href="#">View project</a>
           <a href="#">View code</a>
         </div>
@@ -72,9 +88,12 @@
 
       <div>
         <img src="./assets/images/thumbnail-project-2-small.webp" alt="e-learning landing page">
-        <p>E-learning landing page</p>
-        <p>HTML CSS</p>
-        <div>
+        <p class="project-title">E-learning landing page</p>
+        <div class="project-tech">
+          <p>HTML</p> 
+          <p>CSS</p>
+        </div>
+        <div class="project-links">
           <a href="#">View project</a>
           <a href="#">View code</a>
         </div>
@@ -82,9 +101,13 @@
 
       <div>
         <img src="./assets/images/thumbnail-project-3-small.webp" alt="todo web app">
-        <p>Todo web app</p>
-        <p>HTML CSS JavaScript</p>
-        <div>
+        <p class="project-title">Todo web app</p>
+        <div class="project-tech">
+          <p>HTML</p> 
+          <p>CSS</p> 
+          <p>JavaScript</p>
+        </div>
+        <div class="project-links">
           <a href="#">View project</a>
           <a href="#">View code</a>
         </div>
@@ -92,9 +115,13 @@
 
       <div>
         <img src="./assets/images/thumbnail-project-4-small.webp" alt="entertainment web app">
-        <p>Entertainment web app</p>
-        <p>HTML CSS JavaScript</p>
-        <div>
+        <p class="project-title">Entertainment web app</p>
+        <div class="project-tech">
+          <p>HTML</p> 
+          <p>CSS</p> 
+          <p>JavaScript</p>
+        </div>
+        <div class="project-links">
           <a href="#">View project</a>
           <a href="#">View code</a>
         </div>
@@ -102,9 +129,13 @@
 
       <div>
         <img src="./assets/images/thumbnail-project-5-small.webp" alt="memory game">
-        <p>Memory Game</p>
-        <p>HTML CSS JavaScript</p>
-        <div>
+        <p class="project-title">Memory Game</p>
+        <div class="project-tech">
+          <p>HTML</p> 
+          <p>CSS</p> 
+          <p>JavaScript</p>
+        </div>
+        <div class="project-links">
           <a href="#">View project</a>
           <a href="#">View code</a>
         </div>
@@ -112,16 +143,20 @@
 
       <div>
         <img src="./assets/images/thumbnail-project-6-small.webp" alt="art gallery showcase">
-        <p>Art gallery showcase</p>
-        <p>HTML CSS JavaScript</p>
-        <div>
+        <p class="project-title">Art gallery showcase</p>
+        <div class="project-tech">
+          <p>HTML</p> 
+          <p>CSS</p> 
+          <p>JavaScript</p>
+        </div>
+        <div class="project-links">
           <a href="#">View project</a>
           <a href="#">View code</a>
         </div>
       </div>
     </div>
 
-    <div>
+    <div class="contact" id="contact-section">
       <div>
         <h3>Contact</h3>
 
