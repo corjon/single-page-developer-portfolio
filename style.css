@@ -19,6 +19,10 @@ body {
   padding: 20px 16px 0;
   min-height: 100vh;
   background-color: #151515;
+  background-image: url('./assets/images/pattern-circle.svg'), url('./assets/images/pattern-rings.svg'), 
+  url('./assets/images/pattern-rings.svg');
+  background-position: 311px 254px, -342px 124px, 189px 1287px;
+  background-repeat: no-repeat;
   color: #FFFFFF;
 }
 
@@ -45,6 +49,7 @@ footer p {
 header div,
 footer div {
   display: flex;
+  align-items: center;
   column-gap: 25.6px;
 }
 
@@ -139,14 +144,19 @@ h3 {
 }
 
 .projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 40px;
   margin-bottom: 80px;
 }
 
-/* .projects div */
+.projects div {
+  width: fit-content;
+}
 
 .projects img {
   margin-bottom: 20px;
-  width: 100%;
+  width: 346px;
   height: auto;
 }
 
@@ -181,6 +191,9 @@ h3 {
   margin: 0 -16px;
   padding: 60px 16px 0;
   background-color: #242424;
+  background-image: url('./assets/images/pattern-rings.svg');
+  background-position: -343px 436px;
+  background-repeat: no-repeat;
 }
 
 .contact div {
