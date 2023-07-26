@@ -447,4 +447,28 @@ footer {
   .intro p {
     margin-bottom: 66px;
   }
+
+  .experience {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 58px;
+    column-gap: 35px;
+    margin-bottom: 140px;
+  }
+
+  .projects {
+    row-gap: 69px;
+    column-gap: 24px;
+  }
+
+  .projects img {
+    width: 547px;
+  }
+
+  /* show on img hover */
+  .project-links {
+    display: none;
+  }
+
+
+
 }
