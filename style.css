@@ -478,13 +478,30 @@ footer::after {
     column-gap: 24px;
   }
 
+  .projects div {
+    position: relative;
+  }
+
   .projects img {
     width: 547px;
   }
 
-  /* show on img hover */
+  .projects img:hover {
+    cursor: pointer;
+    opacity: 0.25;
+  }
+
   .project-links {
     display: none;
+  }
+
+  .projects img:hover ~ .project-links {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: absolute;
+    top: 138px;
+    left: 201px;
   }
 
   .contact {
